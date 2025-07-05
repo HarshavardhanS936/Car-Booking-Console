@@ -44,7 +44,6 @@ class Car {
         isAvailable = true;
     }
 }
-
 class Customer {
     private String customerId;
     private String name;
@@ -62,7 +61,6 @@ class Customer {
         return name;
     }
 }
-
 class Rental {
     private Car car;
     private Customer customer;
